@@ -1,0 +1,15 @@
+def print_ndarray(input):
+    print(input)
+    n, p = input.shape
+    for i in range(n):
+        row_values=input[i,:]
+        res = ['%.2f'% value if value >=0 else "NEG" for value in row_values]# list comprehension
+        '|'.join()
+        #for j in range (p):
+         #   if value in row_values:
+          #      if value >=0:
+           #         transofrmed_value ='%.f2' % value
+            #else
+             #   transformed value = 'NEG'
+              #  res2.append(transformed_value)
+    pass
